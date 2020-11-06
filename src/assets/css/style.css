@@ -1,0 +1,243 @@
+.body-wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.rockstar {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  height: 300px;
+  z-index: 1;
+}
+
+.welcome-wrapper {
+  border-radius: 20px;
+  padding: 40px 40px;
+  box-shadow: 0px 3px 8px #aba7a7;
+  text-align: left;
+}
+
+.welcome {
+  font-size: 300%;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.pink {
+  color: #ef4858;
+}
+
+.company-name {
+  font-size: 850%;
+  font-weight: 800;
+}
+
+.orange {
+  color: #fe690f;
+}
+
+.tag-line-wrapper {
+  margin-bottom: 20px;
+}
+
+.tag-line-wrapper p {
+  font-size: 30px;
+}
+
+.welcome-wrapper p {
+  font-size: 22px;
+  margin-bottom: 0px;
+  color: #c1c1c1;
+  font-weight: 600;
+}
+
+.black {
+  color: #000;
+}
+
+.button-wrapper {
+  padding: 20px 0px;
+}
+
+.btn.yellow {
+  background: #fec52e;
+  margin-right: 15px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.btn.white {
+  border: 1.5px solid #05022d;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #05022d;
+}
+
+.form-wraaper {
+  padding: 25px 50px;
+}
+
+.form-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.input-group .input-custom {
+  border-radius: 25px;
+  box-shadow: 0px 3px 5px #ccc;
+  padding: 25px;
+  border-left: 0px transparent;
+}
+
+.block {
+  width: 100%;
+}
+
+.custom-button {
+  margin: 30px 0px;
+}
+
+.form-footer {
+  color: #c1c1c1;
+  position: relative;
+  bottom: -20px;
+}
+
+.navbar .navbar-brand {
+  margin-right: 30px;
+}
+
+.navbar .navbar-brand span {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 1;
+}
+
+.navbar .search {
+  border-radius: 20px;
+}
+
+.contian-wrapper {
+  padding: 30px;
+}
+
+.contian-wrapper {
+  background: #f1f0f0;
+  text-align: left;
+}
+
+.contain {
+  background: #fff;
+}
+
+.container-fluid.dashboard .col-12,
+.col-md-2,
+.col-md-10 {
+  padding: 0px;
+}
+
+thead {
+  background: #05022d;
+  color: #fff;
+}
+
+.breadcrumb {
+  background: transparent !important;
+  padding: 0px !important;
+}
+
+.dash-icon {
+  margin-right: 10px;
+}
+
+.yellow-body {
+  background: #fec52e;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.form-search {
+  padding: 20px;
+}
+
+.form-search .search {
+  border-radius: 20px;
+  margin-right: 0px !important;
+}
+.inline-filer {
+  padding: 20px 20px;
+  font-size: 16px;
+  float: right;
+}
+
+.inline-filer i {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.inline-filer a {
+  color: #000;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.nav-tabs {
+  display: inline-flex !important;
+}
+
+.tabs .nav-tabs .nav-item {
+  border: 0px;
+  background: transparent;
+}
+
+.tabs .nav-tabs .nav-link.active {
+  border-bottom: 2px solid #000;
+}
+
+.form-search .input-group-text {
+  background: transparent;
+  border-radius: 20px;
+}
+
+.form-wraaper form .input-group .input-group-text {
+  box-shadow: 0px 2px 3px #ccc;
+  background: transparent;
+  border-radius: 20px;
+  border-right: 0px transparent;
+}
+
+.mobile-text {
+  display: none;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.yellow-text {
+  color: #fec52e;
+}
+
+@media screen and (max-width: 767px) {
+  .welcome-wrapper {
+    display: none;
+  }
+  .form-title {
+    font-size: 34px;
+    text-align: left;
+    line-height: 1;
+    display: table-caption;
+    padding-bottom: 0px;
+  }
+
+  .mobile-text {
+    display: block;
+  }
+
+  .rockstar {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    height: 200px;
+    z-index: 1;
+  }
+}
